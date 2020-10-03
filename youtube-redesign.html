@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <!-- Youtube Icon on title bar -->
+    <link rel="icon" href="https://www.flaticon.com/svg/static/icons/svg/1384/1384060.svg">
+
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/392eb3bd3f.js" crossorigin="anonymous"></script>
+
     <title>YouTube</title>
 </head>
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light">
         <!-- YouTube Icon -->
-        <a class="navbar-brand" href="#" style="font-weight: bold;">
-            <img src="images/youtube.svg" width="30" height="30" class="d-inline-block align-middle" alt="youtube icon"> YouTube
-        </a>
-      
+        <a class="navbar-brand" href="#" style="font-weight: bold;"><i class="fab fa-youtube" style="color: red;"></i>YouTube</a>
+        <!-- <img src="images/youtube.svg" width="30" height="30" class="d-inline-block align-middle" alt="youtube icon"> -->
+
         <!-- Menu items -->
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
+            <!-- Home item -->
             <li class="nav-item active">
-                <!-- Home item -->
-                <a class="nav-link" href="#">
-                    <img src="images/home.svg" width="16" height="16" class="d-inline-block align-middle" style="vertical-align: middle;" alt="home icon">
-                    Home <span class="sr-only">(current)</span>
-                </a>
+                <a class="nav-link" href="#"><i class="fas fa-home fa-fw" style="color:red;"></i> Home<span class="sr-only">(current)</span></a>
             </li>
             <!-- History item -->
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-history fa-fw""></i> History</a>
+                <a class="nav-link" href="#"><i class="fas fa-history fa-fw"></i> History</a>
             </li>
             <!-- Watch Later item -->
             <li class="nav-item">
-                <a class="nav-link" href="#"><img src="images/clock.svg" width="16" height="16" class="d-inline-block align-middle" alt="clock icon"> Watch Later</a>
+                <a class="nav-link" href="#"><i class="fas fa-clock fa-fw"></i> Watch Later</a>
             </li>
             <!-- Playlists menu item -->
             <li class="nav-item">
-                <a class="nav-link" href="#"><a class="nav-link" href="#"><img src="images/library.svg" width="16" height="16" class="d-inline-block align-middle" alt="video library icon"> Playlists</a>
+                <a class="nav-link" href="#"><img src="images/library.svg" width="18" height="18" class="d-inline-block align-middle" alt="video library icon"> Playlists</a>
             </li>
             <!-- More dropdown menu -->
             <li class="nav-item dropdown">
@@ -46,45 +49,74 @@
                 More
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#"><i class="material-icons">local_fire_department</i> Trending</a>
+                <a class="dropdown-item" href="#"><i class="material-icons">subscriptions</i> Subscriptions</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#"><i class="material-icons">videogame_asset</i> Gaming</a>
+                <a class="dropdown-item" href="#"><i class="material-icons">subscriptions</i> Live</a>
+                <a class="dropdown-item" href="#"><i class="material-icons">subscriptions</i> Fashion & Beauty</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"><i class="fab fa-youtube"></i> YouTube Premium</a>
+                <a class="dropdown-item" href="#"><i class="material-icons">live_tv</i> YouTube TV</a>
+                <a class="dropdown-item" href="#"><i class="fab fa-youtube"></i> YouTube Music</a>
+                <a class="dropdown-item" href="#"><i class="fab fa-youtube"></i> YouTube Kids</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"><i class="fab fa-youtube"></i> Creator Academy</a>
+                <a class="dropdown-item" href="#"><i class="fab fa-youtube"></i> YouTube Artists</a>
               </div>
             </li>
+          </ul>
+
+          <!-- Right side of navbar-->
+          <ul class="navbar-nav navbar-right">
             <!-- Help item -->
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-question-circle fa-fw"></i> Help</a>
+                <a class="nav-link" href="#"><i class="fas fa-question-circle fa-fw" style="font-size:20px; vertical-align: middle;"></i></a>
             </li>
             <!-- User settings dropdown menu -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                  User settings
+                <a class="nav-link" href="#" id="user-settings-dropdown" role="button" data-toggle="dropdown">
+                  <img src="images/avatar.png" alt="avatar" class="avatar">
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">aangthelegend27</a>
+                  <a class="dropdown-item" href="#">aangthelegend27@gmail.com</a>
+                  <a class="dropdown-item" href="#">Manage your Google Account</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Notifications</a>
+                  <a class="dropdown-item" href="#">Account Settings</a>
+                  <a class="dropdown-item" href="#">Your data in YouTube</a>
+                  <a class="dropdown-item" href="#">Your channel</a>
+                  <a class="dropdown-item" href="#">Paid memberships</a>
+                  <a class="dropdown-item" href="#">YouTube Studio</a>
+                  <a class="dropdown-item" href="#">Switch account</a>
+                  <a class="dropdown-item" href="#">Sign out</a>
                 </div>
             </li>
             <!-- General settings dropdown menu -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                    <i class="fas fa-ellipsis-v fa-fw"></i>
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    <i class="fas fa-ellipsis-v fa-fw" style="font-size:22px;"></i>
                 </a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Appearance: Light</a>
+                    <a class="dropdown-item" href="#">Language: British English</a>
+                    <a class="dropdown-item" href="#">Location: Singapore</a>
+                    <a class="dropdown-item" href="#">Focused Mode: On</a>
+                    <a class="dropdown-item" href="#">Edit menu shortcuts</a>
+                    <a class="dropdown-item" href="#">Restricted Mode On</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Keyboard Shortcuts</a>
+                    <a class="dropdown-item" href="#">Help</a>
+                    <a class="dropdown-item" href="#">Send Feedback</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">more stuff/a>
+                    <a class="dropdown-item" href="#">Google LLC</a>
                 </div>
             </li>
-
           </ul>
-          
         </div>
-      </nav>
+    </nav>
 
     <div class="content">
         <h1 id="home-greeting">What would you like to watch?</h1>
@@ -93,7 +125,7 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
-    
+
 
 </body>
 </html>
