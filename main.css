@@ -62,7 +62,7 @@ html body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
+  text-align: center;
 }
 
 .home-greeting {
@@ -101,6 +101,7 @@ html body {
 /* tags */
 .tags {
     text-align: center;
+    color: #8a8a8a;
 }
 
 .btn-tag {
@@ -112,6 +113,20 @@ html body {
 
 .btn-tag:hover {
     background-color: #d6d6d6;
+}
+
+/* see all at the bottom */
+.see-all {
+    text-align: center;
+    bottom: 3%;
+    left: 50%;
+    margin: auto;
+    position: absolute;
+    transition: bottom ease 0.5s;
+}
+
+.see-all:hover {
+    bottom: 5%;
 }
 
 /* For icons */
