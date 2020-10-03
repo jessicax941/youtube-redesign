@@ -28,7 +28,7 @@ html body {
   background-color: #e5e5e5;
 }
 
-.navbar .navbar-nav li:hover {
+.navbar .navbar-nav .left-navbar-item:hover {
   background-color: #f1f1f1;
 }
 
@@ -39,9 +39,9 @@ html body {
 }
 
 .navbar .nav-item .dropdown-menu {
-    -webkit-box-shadow: 0 4px 6px -3px #444;
-    -moz-box-shadow: 0 4px 6px -3px #444;
-    box-shadow: 0 4px 6px -3px #444;
+    -webkit-box-shadow: 0 0 8px -3px #444;
+    -moz-box-shadow: 0 0 8px -3px #444;
+    box-shadow: 0 0 8px -3px #444;
 }
 
 #user-settings-dropdown {
