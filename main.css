@@ -8,6 +8,7 @@
 .navbar-nav > li { /* '>': to select the direct children of .navbar-nav */
     padding-left: 1rem;
     padding-right: 1rem;
+    font-size: large;
 }
 
 .content {
@@ -36,6 +37,7 @@
     justify-content: center;
 }
 
-.fa {
-    color: black;
+/* for FontAwesome icons */
+.fas {
+    color: #505050;
 }
