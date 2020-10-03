@@ -1,6 +1,9 @@
+html body {
+    font-family: Roboto !important;
+}
+
 /* Nav bar styling */
 .navbar {
-  /*elevation (horz length, vertical length, blur radius, spread radius, colour*/
   -webkit-box-shadow: 0 4px 4px -3px #444;
   -moz-box-shadow: 0 4px 4px -3px #444;
   box-shadow: 0 4px 4px -3px #444;
@@ -9,7 +12,6 @@
 
 .navbar-nav > li { /* '>': to select the direct children of .navbar-nav */
   padding: 0.3rem 1rem;
-  /* padding-right: 1rem; */
   font-size: medium;
 }
 
@@ -36,14 +38,20 @@
   border-radius: 50%;
 }
 
-/* .nav-item .dropdown {
-  vertical-align: middle;
-} */
+.navbar .nav-item .dropdown-menu {
+    -webkit-box-shadow: 0 4px 6px -3px #444;
+    -moz-box-shadow: 0 4px 6px -3px #444;
+    box-shadow: 0 4px 6px -3px #444;
+}
 
 #user-settings-dropdown {
   /* padding: 0 !important; */
   vertical-align: middle;
   display: inline;
+}
+
+.dropdown-item {
+    height: 36px;
 }
 
 /* Main page styling */
@@ -57,20 +65,67 @@
 
 }
 
-#home-greeting {
+.home-greeting {
   text-align: center;
   padding: 10px;
+  margin-bottom: 15px;
 }
 
 .form-inline {
   justify-content: center;
 }
 
-/* For FontAwesome icons */
-.fas {
+/* search bar */
+/* .content .form-inline .form-control {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 4px 6px -3px #444;
+    -moz-box-shadow: 0 4px 6px -3px #444;
+    box-shadow: 0 4px 6px -3px #444;
+} */
+
+#search-bar-container {
+    border-radius: 50px;
+    width: 500px;
+}
+
+.input-group {
+    padding: 0 10px;
+}
+
+/* .form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #f7f7f7;
+} */
+
+/* tags */
+.tags {
+    text-align: center;
+}
+
+.btn-tag {
+    background-color: #e5e5e5;
+    border-radius: 20px !important;
+    padding: 3px 26px !important;
+    margin: 10px;
+}
+
+.btn-tag:hover {
+    background-color: #d6d6d6;
+}
+
+/* For icons */
+
+/* .fas {
   color: #505050;
+} */
+
+.fa-youtube {
+  font-size: 20px;
 }
 
 .material-icons {
   font-size: 16px;
+  position: relative;
+  top: 6px;
 }

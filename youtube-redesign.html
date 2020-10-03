@@ -6,8 +6,8 @@
 
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-md navbar-light">
         <!-- YouTube Icon -->
-        <a class="navbar-brand" href="#" style="font-weight: bold;"><i class="fab fa-youtube" style="color: red;"></i>YouTube</a>
+        <a class="navbar-brand" href="#" style="font-weight: bold;"><i class="fab fa-youtube" style="color: red;"></i> YouTube</a>
         <!-- <img src="images/youtube.svg" width="30" height="30" class="d-inline-block align-middle" alt="youtube icon"> -->
 
         <!-- Menu items -->
@@ -57,7 +57,7 @@
                 <a class="dropdown-item" href="#"><i class="material-icons">subscriptions</i> Fashion & Beauty</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#"><i class="fab fa-youtube"></i> YouTube Premium</a>
-                <a class="dropdown-item" href="#"><i class="material-icons">live_tv</i> YouTube TV</a>
+                <a class="dropdown-item" href="#"><i class="material-icons" style="top: 4px;">live_tv</i> YouTube TV</a>
                 <a class="dropdown-item" href="#"><i class="fab fa-youtube"></i> YouTube Music</a>
                 <a class="dropdown-item" href="#"><i class="fab fa-youtube"></i> YouTube Kids</a>
                 <div class="dropdown-divider"></div>
@@ -119,13 +119,40 @@
     </nav>
 
     <div class="content">
-        <h1 id="home-greeting">What would you like to watch?</h1>
+        <div class="home-greeting">
+            <h1>What would you like to watch today?</h1>
+        </div>
+        
+        <!-- search bar -->
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <div class="bg-light shadow mb-4" id="search-bar-container">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button type="submit" class="btn" style="background-color: transparent;"><i class="fas fa-search"></i></button>
+                    </div>
+                    <input type="search" placeholder="Search" class="form-control border-0 bg-light">
+                </div>
+            </div>
         </form>
-    </div>
 
+        <!-- tags -->
+        <div class="tags">
+            See 
+            <button type="button" class="btn btn-tag">Trending</button>
+            <button type="button" class="btn btn-tag">Subscriptions</button>
+            <br>
+            Or see videos tagged with:
+            <br>
+            <button type="button" class="btn btn-tag">Lo-fi Music</button>
+            <button type="button" class="btn btn-tag">C++</button>
+            <button type="button" class="btn btn-tag">UI/UX Design</button>
+            <button type="button" class="btn btn-tag">JavaScript</button>
+            <br>
+            <button type="button" class="btn btn-tag">Computer Science</button>
+            <button type="button" class="btn btn-tag">Synthwave</button>
+            <button type="button" class="btn btn-tag">TED Talks</button>
+        </div>
+    </div>
 
 </body>
 </html>
