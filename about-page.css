@@ -27,14 +27,20 @@
     padding-right: 0.2rem;
 }
 
-/* mission section */
-.mission-section {
-    
-    position: absolute;
-    width: 75%;
-    top: 15%;
+/* content */
+.content {
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    position: absolute;
+}
+
+/* mission section */
+.mission-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -66,7 +72,84 @@
     width: 50%
 }
 
-/* .video-player > img {
+/* value statements */
+
+
+.values-container > h4 {
+    position: absolute;
+    z-index: 2;
+}
+
+.values-container .value > p {
+    padding: 2rem 0;
+}
+
+.value {
+    padding: 0 3rem !important;
+}
+
+.red-underline-basic {
+    height: 10px;
+    background-color: red;
     position: absolute;
     z-index: 1;
-} */
+}
+
+#underline-expression {
+    width: 120px;
+    position: absolute;
+    z-index: 1;
+    top: 14%;
+    right: 31%;
+}
+
+#underline-information {
+    width: 128px;
+    position: absolute;
+    z-index: 1;
+    top: 14%;
+    right: 30%;
+}
+
+#underline-opportunity {
+    width: 128px;
+    position: absolute;
+    z-index: 1;
+    top: 14%;
+    right: 30.2%;
+}
+
+#underline-belong {
+    width: 78px;
+    position: absolute;
+    z-index: 1;
+    top: 14%;
+    right: 34%;
+}
+
+/* latest news and trending */
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    padding: 3rem 0;
+}
+
+.latest-news, .trending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+
+.latest-news > a, .trending > a {
+    font-size: medium;
+    text-decoration: underline;
+}
+
+
+
+
+
+

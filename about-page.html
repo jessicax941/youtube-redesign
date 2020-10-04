@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: white;">
         <!-- YouTube Icon -->
         <a class="navbar-brand" href="#">
             <i class="fab fa-youtube fa-lg" style="color: red;"></i>
@@ -82,23 +82,85 @@
 
     </nav>
 
-    <!-- Row for mission statement and video player -->
-    <div class="mission-section">
-        <!-- Column for mission statement -->
-        <div class="mission-statements">
-            <div class="youtube-icon">
-                <i class="fab fa-youtube" style="color: red;"></i>
-                <span class="font-weight-bold">YouTube</span>
+    <!-- Container for content excluding footer -->
+    <div class="content">
+
+        <!-- Mission statements and video -->
+        <div class="mission-section">
+
+            <!-- Column for mission statement -->
+            <div class="mission-statements">
+                <div class="youtube-icon">
+                    <i class="fab fa-youtube" style="color: red;"></i>
+                    <span class="font-weight-bold">YouTube</span>
+                </div>
+                <br>
+                <p class="text-center" style="font-size: larger;">Our mission is to give everyone a voice and show them the world.</p>
+                <br>
+                <p class="text-center">We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories.</p>
             </div>
-            <br>
-            <p class="text-center" style="font-size: larger;">Our mission is to give everyone a voice and show them the world.</p>
-            <br>
-            <p class="text-center">We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories.</p>
+
+            <!-- 'Video player' -->
+            <a href="#"><img src="images/about-page-video.svg" alt="video"></a>
         </div>
 
-        <!-- 'Video player' -->
-        <a href="#"><img src="images/about-page-video.svg" alt="video"></a>
+        <br>
+
+        <!-- Value statements -->
+        <h4 class="text-center" style="padding-top: 7rem; padding-bottom: 2rem;">Our values are based on four essential freedoms that define who we are.</h4>
+
+        <br>
+
+        <div class="row values-container">
+            <div class="col value">
+                <h4 class="text-center font-weight-bold">Freedom of Expression</h4>
+                <div class="red-underline-basic" id="underline-expression"></div>
+                <p class="text-left">We believe people should be able to speak freely,
+                    share opinions, foster open dialogue, and that creative
+                    freedom leads to new voices, formats and possibilities.</p>
+            </div>
+            <div class="col value">
+                <h4 class="text-center font-weight-bold">Freedom of Information</h4>
+                <div class="red-underline-basic" id="underline-information"></div>
+                <p class="text-left">We believe everyone should have easy, open access to
+                    information and that video is a powerful force for
+                    education, building understanding, and documenting
+                    world events, big and small.</p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col value">
+                <h4 class="text-center font-weight-bold">Freedom of Opportunity</h4>
+                <div class="red-underline-basic" id="underline-opportunity"></div>
+                <p class="text-left">We believe everyone should have a chance to be
+                    discovered, build a business and succeed on their own
+                    terms, and that people—not gatekeepers—decide
+                    what’s popular.</p>
+            </div>
+            <div class="col value">
+                <h4 class="text-center font-weight-bold">Freedom to Belong</h4>
+                <div class="red-underline-basic" id="underline-belong"></div>
+                <p class="text-left">We believe everyone should be able to find communities
+                    of support, break down barriers, transcend borders and
+                    come together around shared interests and passions.</p>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- latest news and trending -->
+        <div class="links">
+            <div class="latest-news">
+                <p class="text-center">The latest news from YouTube</p>
+                <a href="#">Visit the YouTube blog</a>
+            </div>
+            <div class="trending">
+                <p class="text-center">Trending videos and topics on YouTube</p>
+                <a href="#">Visit the Trends blog</a>
+            </div>
+        </div>
+
     </div>
+    
 
 </body>
 
