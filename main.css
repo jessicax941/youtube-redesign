@@ -38,19 +38,48 @@ html body {
   border-radius: 50%;
 }
 
+.avatar-big {
+    width: 36px;
+    height: 36px;
+}
+
 .navbar .nav-item .dropdown-menu {
     -webkit-box-shadow: 0 0 8px -3px #444;
     -moz-box-shadow: 0 0 8px -3px #444;
     box-shadow: 0 0 8px -3px #444;
 }
 
+.dropdown-item {
+    height: 36px;
+}
+
 #user-icon {
   padding: 0 !important;
 }
 
-.dropdown-item {
-    height: 36px;
+#user-dropdown-user-info-container {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: flex-start;
 }
+
+#user-dropdown-user-info-container > .avatar {
+    position: relative;
+    top: 5px;
+}
+
+#user-dropdown-user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+#user-dropdown-user-info > a:hover {
+    text-decoration: none;
+}
+
 
 /* Main page styling */
 .content {
