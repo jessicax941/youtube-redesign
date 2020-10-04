@@ -5,7 +5,7 @@
     bottom: 10px;
 }
 
-.top-right-button-group > .material-icons {
+.top-right-button-group>.material-icons {
     display: inline;
     top: 0px !important;
 }
@@ -18,23 +18,23 @@
 
 /* for main content */
 .main-content {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .home-greeting {
-  text-align: center;
-  padding: 10px;
-  margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .form-inline {
-  justify-content: center;
+    justify-content: center;
 }
 
 #search-bar-container {

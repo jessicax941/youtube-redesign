@@ -6,38 +6,39 @@ html body {
 
 /* nav bar */
 .navbar {
-  -webkit-box-shadow: 0 4px 4px -3px #444;
-  -moz-box-shadow: 0 4px 4px -3px #444;
-  box-shadow: 0 4px 4px -3px #444;
-  padding: 0 1rem !important;
+    -webkit-box-shadow: 0 4px 4px -3px #444;
+    -moz-box-shadow: 0 4px 4px -3px #444;
+    box-shadow: 0 4px 4px -3px #444;
+    padding: 0 1rem !important;
 }
 
-.navbar-nav > li { /* '>': to select the direct children of .navbar-nav */
-  padding: 0.3rem 1rem;
-  font-size: medium;
+.navbar-nav>li {
+    /* '>': to select the direct children of .navbar-nav */
+    padding: 0.3rem 1rem;
+    font-size: medium;
 }
 
 .navbar .navbar-nav {
-  margin: 0;
-  align-items: center;
+    margin: 0;
+    align-items: center;
 }
 
 .navbar .nav-item a {
-  color: black !important;
+    color: black !important;
 }
 
 .active {
-  background-color: #e5e5e5;
+    background-color: #e5e5e5;
 }
 
 .navbar .navbar-nav .left-navbar-item:hover {
-  background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
 .avatar {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
 }
 
 .avatar-big {
@@ -57,10 +58,10 @@ html body {
 }
 
 #user-icon {
-  padding: 0 !important;
+    padding: 0 !important;
 }
 
-.dropdown-item > .right-arrow {
+.dropdown-item>.right-arrow {
     float: right;
 }
 
@@ -71,7 +72,7 @@ html body {
     align-items: flex-start;
 }
 
-#user-dropdown-user-info-container > .avatar {
+#user-dropdown-user-info-container>.avatar {
     position: relative;
     top: 5px;
 }
@@ -83,7 +84,7 @@ html body {
     padding-left: 10px;
 }
 
-#user-dropdown-user-info > a:hover {
+#user-dropdown-user-info>a:hover {
     text-decoration: none;
 }
 
@@ -101,7 +102,7 @@ html body {
     padding-left: 1.5rem;
 }
 
-#general-settings-copyright > .material-icons {
+#general-settings-copyright>.material-icons {
     font-size: medium;
     top: 0px !important;
     padding-right: 8px;
@@ -116,7 +117,7 @@ html body {
     padding: 0.2rem 1.5rem;
 }
 
-#general-settings-small-links > a {
+#general-settings-small-links>a {
     padding-right: 10px;
 }
 
@@ -165,10 +166,10 @@ text-button {
 }
 
 .fa-youtube {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .material-icons {
-  position: relative;
-  top: 6px;
+    position: relative;
+    top: 6px;
 }
