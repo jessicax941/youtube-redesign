@@ -139,6 +139,26 @@ html body {
     color: #f1f1f1;
 }
 
+.btn-outline-secondary {
+    color: #3e64eb !important;
+    border-color: #3e64eb !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: unset !important;
+    color: unset !important;
+    text-decoration-color: unset !important;
+}
+
+text-button {
+    color: #5a5a5a;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+
 /* for icons */
 .dropdown-menu-icon {
     font-size: 20px;

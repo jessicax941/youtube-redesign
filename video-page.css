@@ -46,4 +46,75 @@ video-player > img {
     background-color: #c4c4c4 !important;
 }
 
+/* left and right columns */
+.content {
+    position: absolute;
+    width: 90% !important;
+    top: 650px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    /* display: flexbox; */
+    flex-direction: row;
+    /* padding: 0 5%;  */
+}
 
+/* left column */
+.column-left {
+    width: 80%;
+}
+
+.video-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.video-actions > a {
+    color: black;
+}
+
+.video-actions > a:hover {
+    color: red;
+}
+
+.video-actions > a > .material-icons {
+    padding: 5px;
+}
+
+.divider {
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e5e5e5;
+}
+
+.channel-info > a {
+    font-weight: bold;
+    color: black;
+}
+
+.channel-info > a:hover {
+    text-decoration: none !important;
+    color: black;
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 0 !important;
+}
+
+.comments-info {
+    display: flexbox;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.comments-info > text-button {
+    padding: 0 10px;
+}
+
+#show-comments-btn {
+    padding-top: 10px;
+    padding-bottom: 24px;
+}

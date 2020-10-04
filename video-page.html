@@ -281,35 +281,98 @@
             <!-- video controls 'buttons' -->
             <div class="video-player-controls-row">
                 <div class="video-player-controls-group">
-                    <span class="material-icons">replay_5</span>
-                    <span class="material-icons">play_arrow</span>
-                    <span class="material-icons">forward_5</span>
-                    <span class="material-icons">loop</span>
-                    <span class="material-icons">volume_up</span>
+                    <a href="#"><span class="material-icons">replay_5</span></a>
+                    <a href="#"><span class="material-icons">play_arrow</span></a>
+                    <a href="#"><span class="material-icons">forward_5</span></a>
+                    <a href="#"><span class="material-icons">loop</span></a>
+                    <a href="#"><span class="material-icons">volume_up</span></a>
                     <span style="color: white;">5:15:44 / 6:13:45</span>
                 </div>
                 <div class="video-player-controls-group">
-                    <span class="material-icons">keyboard</span>
-                    <span class="material-icons">subtitles</span>
-                    <span class="material-icons">settings</span>
-                    <span class="material-icons">branding_watermark</span>
-                    <span class="material-icons">crop_landscape</span>
-                    <span class="material-icons">fullscreen</span>
+                    <a href="#"><span class="material-icons">keyboard</span></a>
+                    <a href="#"><span class="material-icons">subtitles</span></a>
+                    <a href="#"><span class="material-icons">settings</span></a>
+                    <a href="#"><span class="material-icons">branding_watermark</span></a>
+                    <a href="#"><span class="material-icons">crop_landscape</span></a>
+                    <a href="#"><span class="material-icons">fullscreen</span></a>
                 </div>
             </div>
         </div>
         <img src="images/video.svg">
     </video-player>
+
+    <div class="content mx-auto">
         
-    <!-- video description -->
-    <div>
+        <!-- video info, description, comments -->
+        <div class="column-left">
+            <!-- video info including video actions -->
+            <div class="video-info">
+                <div class="video-info-column">
+                    <h5>C++ Full Tutorial</h3>
+                    <span style="color: #5a5a5a">878, 352 views · 4 Sep 2019</span>
+                </div>
+                <div class="video-actions align-self-end">
+                    <a href="#"><span class="material-icons">thumb_up</span></a>
+                    <span style="font-size: smaller;">42.6k</span>
+                    <a href="#"><span class="material-icons">share</span></a>
+                    <a href="#"><span class="material-icons">playlist_add</span></a>
+                    <a href="#"><span class="material-icons">flag</span></a>
+                    <a href="#"><span class="material-icons">speaker_notes</span></a>
+                    <a href="#"><span class="material-icons">translate</span></a>
+                </div>
+            </div>
+            <div class="divider"></div>
+            
+            <!-- video description including 'join' and 'subscribe' buttons -->
 
+            <!-- row for channel info and 'join' and 'subcribe' buttons -->
+            <div class="row justify-content-between" style="margin-right: 0px !important">
+
+                <!-- row for avatar and channel info -->
+                <div class="row justify-content-start align-items-center px-4">
+                    <a href="#"><span class="material-icons px-2" style="font-size: 48px; color: black;">account_circle</span></a>
+                    <div class="channel-info col justify-content-around px-1">
+                        <a href="#" style="font-size:larger;">code++</a>
+                        <br>
+                        <span style="font-size: smaller; color: #5a5a5a;">1.4m subscribers</span>
+                    </div>
+                </div>
+
+                <div class="channel-actions">
+                    <button type="button" class="btn btn-outline-secondary">JOIN</button>
+                    <button type="button" class="btn btn-primary">SUBSCRIBE</button>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- video description and 'show more' button-->
+            <p>Welcome back to another tutorial! This time, I will give you a full introduction into all of the core concepts in C++. Follow along with me and you'll be a C++ programmer in no time!...</p>
+
+            <text-button>show more</text-button>
+
+            <div class="divider"></div>
+
+            <!-- comments info and 'show comments' button -->
+            <div class="comments-info">
+                2,834 comments
+                <text-button>sort by <span class="material-icons">sort</span></text-button>
+            </div>
+
+            <div id="show-comments-btn">
+                <text-button>show comments</text-button>
+            </div>
+
+        </div>
+
+        <!-- up next and suggested -->
+        <div class="column-right">
+            <!-- Up Next
+            <br>
+            Suggested -->
+        </div>
     </div>
-
-    <!-- up next and suggested -->
-    <div>
-
-    </div>
+    
 </body>
 
 </html>
