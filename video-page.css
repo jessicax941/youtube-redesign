@@ -1,5 +1,24 @@
 /* CSS for video-page specific elements */
 
+/* search bar on navbar */
+#search-bar-container {
+    border-radius: 50px;
+    width: 300px;
+    background-color: #e5e5e5 !important;
+}
+
+.input-group {
+    padding: 0 10px;
+}
+
+.input-group-prepend > .btn {
+    padding: 0 !important;
+}
+
+.form-control {
+    background-color: #e5e5e5 !important;
+}
+
 /* video player */
 video-player {
     width: 1024px;
