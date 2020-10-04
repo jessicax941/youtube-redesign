@@ -123,10 +123,10 @@ html body {
 .top-right-button-group {
     float: right;
     padding: 1rem;
+    font-weight: bold !important;
 }
 
 .btn {
-    font-weight: bold !important;
     margin: 0 0.3rem;
 }
 
