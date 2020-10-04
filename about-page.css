@@ -1,10 +1,11 @@
 /* CSS for elements specific to the about page */
 
-/* navbar */
-/* .navbar-brand > .fa-youtube {
-    font-size: 32px;
-} */
+html, body {
+    height: 100%;
+    position: relative;
+}
 
+/* navbar */
 #language-selector-btn {
     height: 36px;
     background: transparent;
@@ -28,7 +29,7 @@
 }
 
 /* content */
-.content {
+.main-content {
     top: 25%;
     left: 50%;
     transform: translateX(-50%);
@@ -37,6 +38,7 @@
     align-items: center;
     width: 75%;
     position: absolute;
+    padding-bottom: 646px;
 }
 
 /* mission section */
@@ -73,8 +75,6 @@
 }
 
 /* value statements */
-
-
 .values-container > h4 {
     position: absolute;
     z-index: 2;
@@ -148,6 +148,56 @@
     text-decoration: underline;
 }
 
+/* footer  */
+.footer {
+    width: 100%;
+    padding: 2rem 8rem;
+    background-color: black;
+    color: #c4c4c4;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.socials > .fab {
+    font-size: 20px;
+    padding: 0 2rem;
+}
+
+li {
+    padding: 0.5rem 0 !important;
+}
+
+li > a {
+    color: #c4c4c4 !important;
+}
+
+.final-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.final-row > a {
+    padding: 0 1.5rem;
+    color: #c4c4c4;
+}
+
+.final-row > a:hover {
+    color: #c4c4c4;
+}
 
 
 
