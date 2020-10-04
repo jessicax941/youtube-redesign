@@ -40,7 +40,8 @@
             </li>
             <!-- Playlists menu item -->
             <li class="nav-item left-navbar-item">
-                <a class="nav-link" href="#"><img src="images/library.svg" width="18" height="18" class="d-inline-block align-middle" alt="video library icon"> Playlists</a>
+                <a class="nav-link" href="#">
+                    <img src="images/library.svg" width="18" height="18" class="d-inline-block align-middle" alt="video library icon"> Playlists</a>
             </li>
 
             <!-- More dropdown menu -->
@@ -130,7 +131,6 @@
                     <a class="dropdown-item" href="#" style="position: relative; top: 5px;"><i class="fas fa-question-circle fa-fw dropdown-menu-icon" style="position: relative; top: 2px;"></i> Help</a>
                     <a class="dropdown-item" href="#"><span class="material-icons">feedback</span> Send Feedback</a>
                     <div class="dropdown-divider"></div>
-                    <!-- <a class="dropdown-item" href="#">more stuff</a> -->
                     <div id="general-settings-small-links">
                         <a href="#">Terms</a>
                         <a href="#">Privacy</a>
@@ -147,18 +147,24 @@
                     <div id="general-settings-copyright">
                         <span class="material-icons">copyright</span>2020 Google LLC
                     </div>
-                    <!-- <a class="dropdown-item" href="#">
-                        <span style="color: #8a8a8a; font-size: 0.75rem;">
-                            
-                        </span>
-                    </a> -->
                 </div>
             </li>
           </ul>
         </div>
     </nav>
 
-    <div class="content">
+    <div class="top-right-button-group">
+        <button type="button" class="btn btn-primary btn-create-video">
+            <span class="material-icons">video_call</span>
+            <span style="display: inline;"> CREATE VIDEO</span>
+        </button>
+        <button type="button" class="btn btn-outline-primary">
+            <img src="images/live.svg" width="24" height="24" class="d-inline-block align-middle" alt="live icon">
+             GO LIVE
+        </button>
+    </div>
+
+    <div class="main-content">
         <div class="home-greeting">
             <h1>What would you like to watch today?</h1>
         </div>

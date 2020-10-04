@@ -43,6 +43,8 @@ html body {
     height: 36px;
 }
 
+/* Dropdown menus styling */
+
 .navbar .nav-item .dropdown-menu {
     -webkit-box-shadow: 0 0 8px -3px #444;
     -moz-box-shadow: 0 0 8px -3px #444;
@@ -57,18 +59,8 @@ html body {
   padding: 0 !important;
 }
 
-/* .expandable-menu-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-} */
-
 .dropdown-item > .right-arrow {
-    /* align-self: flex-end; */
     float: right;
-    /* position: relative;
-    right: 0px; */
 }
 
 #user-dropdown-user-info-container {
@@ -120,7 +112,6 @@ html body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    /* align-content: space-around; */
     padding: 0.2rem 1.5rem;
 }
 
@@ -129,7 +120,43 @@ html body {
 }
 
 /* Main page styling */
-.content {
+.top-right-button-group {
+    float: right;
+    padding: 1rem;
+}
+
+.btn {
+    font-weight: bold !important;
+    margin: 0 0.3rem;
+}
+
+.btn-primary {
+    background-color: red !important;
+    border-color: red !important;
+}
+
+.btn-outline-primary {
+    color: red !important;
+    border-color: red !important;
+}
+
+.btn-outline-primary:hover {
+    color: #f1f1f1;
+}
+
+.btn-create-video {
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start; */
+    bottom: 10px;
+}
+
+.top-right-button-group > .material-icons {
+    display: inline;
+    top: 0px !important;
+}
+
+.main-content {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -149,15 +176,6 @@ html body {
   justify-content: center;
 }
 
-/* search bar */
-/* .content .form-inline .form-control {
-    background-color: #f7f7f7;
-    border-radius: 20px;
-    -webkit-box-shadow: 0 4px 6px -3px #444;
-    -moz-box-shadow: 0 4px 6px -3px #444;
-    box-shadow: 0 4px 6px -3px #444;
-} */
-
 #search-bar-container {
     border-radius: 50px;
     width: 500px;
@@ -166,11 +184,6 @@ html body {
 .input-group {
     padding: 0 10px;
 }
-
-/* .form-control:focus {
-    border-color: transparent;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #f7f7f7;
-} */
 
 /* tags */
 .tags-container {
@@ -205,10 +218,6 @@ html body {
 }
 
 /* For icons */
-
-/* .fas {
-  color: #505050;
-} */
 
 .dropdown-menu-icon {
     font-size: 20px;
