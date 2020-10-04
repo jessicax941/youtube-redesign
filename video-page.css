@@ -1,0 +1,43 @@
+.material-icons {
+    color: white;
+    padding: 5px;
+}
+
+video-player {
+    width: 1024px;
+    height: 552px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+video-player > img {
+    position: absolute;
+    z-index: 1;
+}
+
+.video-player-controls-container {
+    position: absolute;
+    width: inherit;
+    z-index: 2;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+/* .video-player-controls-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+/* .video-player-controls-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+

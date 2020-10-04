@@ -6,7 +6,7 @@
     <link rel="icon" href="https://www.flaticon.com/svg/static/icons/svg/1384/1384060.svg">
 
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="landing-page.css">
+    <link rel="stylesheet" href="video-page.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
@@ -22,7 +22,7 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/392eb3bd3f.js" crossorigin="anonymous"></script>
 
-    <title>YouTube</title>
+    <title>C++ Full Tutorial - YouTube</title>
 </head>
 
 <body>
@@ -270,60 +270,38 @@
         </div>
     </nav>
 
-    <div class="top-right-button-group">
-        <button type="button" class="btn btn-primary btn-create-video">
-            <span class="material-icons">video_call</span>
-            <span style="display: inline;"> CREATE VIDEO</span>
-        </button>
-        <button type="button" class="btn btn-outline-primary">
-            <img src="images/live.svg" width="24" height="24" class="d-inline-block align-middle" alt="live icon">
-            GO LIVE
-        </button>
-    </div>
-
-    <div class="main-content">
-        <div class="home-greeting">
-            <h1>What would you like to watch today?</h1>
-        </div>
-
-        <!-- search bar -->
-        <form class="form-inline my-2 my-lg-0">
-            <div class="bg-light shadow mb-4" id="search-bar-container">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <button type="submit" class="btn" style="background-color: transparent;"><i
-                                class="fas fa-search"></i></button>
-                    </div>
-                    <input type="search" placeholder="Search" class="form-control border-0 bg-light">
-                </div>
+    <!-- video player -->
+    <video-player>
+        <div class="video-player-controls-container">
+            <div class="video-player-controls-group">
+                <span class="material-icons">replay_5</span>
+                <span class="material-icons">play_arrow</span>
+                <span class="material-icons">forward_5</span>
+                <span class="material-icons">loop</span>
+                <span class="material-icons">volume_up</span>
+                <span style="color: white;">5:15:44 / 6:13:45</span>
             </div>
-        </form>
-
-        <!-- tags -->
-        <div class="tags-container">
-            See
-            <button type="button" class="btn btn-tag">Trending</button>
-            <button type="button" class="btn btn-tag">Subscriptions</button>
-            <br>
-            Or see videos tagged with:
-            <br>
-            <button type="button" class="btn btn-tag">Lo-fi Music</button>
-            <button type="button" class="btn btn-tag">C++</button>
-            <button type="button" class="btn btn-tag">UI/UX Design</button>
-            <button type="button" class="btn btn-tag">JavaScript</button>
-            <br>
-            <button type="button" class="btn btn-tag">Computer Science</button>
-            <button type="button" class="btn btn-tag">Synthwave</button>
-            <button type="button" class="btn btn-tag">TED Talks</button>
+            <div class="video-player-controls-group">
+                <span class="material-icons">keyboard</span>
+                <span class="material-icons">subtitles</span>
+                <span class="material-icons">settings</span>
+                <span class="material-icons">branding_watermark</span>
+                <span class="material-icons">crop_landscape</span>
+                <span class="material-icons">fullscreen</span>
+            </div>
         </div>
+        <img src="images/video.svg">
+    </video-player>
+        
+    <!-- video description -->
+    <div>
+
     </div>
 
-    <div class="see-all">
-        SEE ALL
-        <br>
-        <i class="fas fa-chevron-down"></i>
-    </div>
+    <!-- up next and suggested -->
+    <div>
 
+    </div>
 </body>
 
 </html>
