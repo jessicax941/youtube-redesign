@@ -57,6 +57,20 @@ html body {
   padding: 0 !important;
 }
 
+/* .expandable-menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+.dropdown-item > .right-arrow {
+    /* align-self: flex-end; */
+    float: right;
+    /* position: relative;
+    right: 0px; */
+}
+
 #user-dropdown-user-info-container {
     display: flex;
     flex-direction: row;
@@ -80,6 +94,39 @@ html body {
     text-decoration: none;
 }
 
+.dropdown-general-settings {
+    width: 300px;
+}
+
+#general-settings-copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #8a8a8a;
+    font-size: 0.75rem;
+    padding-left: 1.5rem;
+}
+
+#general-settings-copyright > .material-icons {
+    font-size: medium;
+    top: 0px !important;
+    padding-right: 8px;
+}
+
+#general-settings-small-links {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-content: space-around; */
+    padding: 0.2rem 1.5rem;
+}
+
+#general-settings-small-links > a {
+    padding-right: 10px;
+}
 
 /* Main page styling */
 .content {
@@ -126,7 +173,7 @@ html body {
 } */
 
 /* tags */
-.tags {
+.tags-container {
     text-align: center;
     color: #8a8a8a;
 }
@@ -145,6 +192,7 @@ html body {
 /* see all at the bottom */
 .see-all {
     text-align: center;
+    font-weight: bold;
     bottom: 3%;
     left: 50%;
     margin: auto;
@@ -162,12 +210,15 @@ html body {
   color: #505050;
 } */
 
+.dropdown-menu-icon {
+    font-size: 20px;
+}
+
 .fa-youtube {
   font-size: 20px;
 }
 
 .material-icons {
-  font-size: 16px;
   position: relative;
   top: 6px;
 }
