@@ -1,9 +1,13 @@
 # youtube-redesign
 A YouTube redesign project for CS3240 individual lab assignments (AY20/21 Semester 1)
 
+1. [Wireframes](#wireframes)
+2. [Prototypes](#prototypes)
+3. [HTML/CSS Implementation with Bootstrap](html/css-implementation-with-bootstrap)
+
 ### Wireframes
 
-The following wireframes were created using Balsamiq.
+The following low to mid-fi wireframes were created using Balsamiq.
 
 **Landing Page**
 ![landing page wireframe](/readme-images/Wirefame%20-%20Landing%20Page.png "Landing Page Wireframe")
@@ -14,10 +18,12 @@ The following wireframes were created using Balsamiq.
 **About Page**
 ![about page wireframe](/readme-images/Wireframe%20-%20About%20Page.png "About Page Wireframe")
 
+---
+
 ### Prototypes
 
-The following prototypes were made using Figma.
-Try out the interactive prototype [here](https://www.figma.com/proto/mo34LWthWhkihFTkIX0tL0/YouTube-Redesign?node-id=2%3A3&scaling=scale-down) (You can click on the search bar on the landing page to view the video page).
+The following hi-fi prototypes were made using Figma.
+Try out the interactive prototype [here](https://www.figma.com/proto/mo34LWthWhkihFTkIX0tL0/YouTube-Redesign?node-id=2%3A3&scaling=scale-down) (you can click on the search bar on the landing page to view the video page).
 
 **Landing Page**
 ![landing page prototype](/readme-images/Prototype%20-%20Landing%20Page.png "Landing Page Prototype")
@@ -28,7 +34,9 @@ Try out the interactive prototype [here](https://www.figma.com/proto/mo34LWthWhk
 **About Page**
 ![about page prototype](/readme-images/Prototype%20-%20About%20Page.png "About Page Prototype")
 
-### Implemented in HTML/CSS, Bootstrap
+---
+
+### HTML/CSS Implementation with Bootstrap
 
 The following screenshot and GIFs showcase my implementation of the previous prototypes in HTML/CSS and using Bootstrap (with small changes made).
 
