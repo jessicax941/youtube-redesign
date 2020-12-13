@@ -3,7 +3,7 @@ A YouTube redesign project for CS3240 individual lab assignments (AY20/21 Semest
 
 1. [Wireframes](#wireframes)
 2. [Prototypes](#prototypes)
-3. [HTML/CSS Implementation with Bootstrap](html/css-implementation-with-bootstrap)
+3. [HTML/CSS Implementation with Bootstrap](#htmlcss-implementation-with-bootstrap)
 
 ### Wireframes
 
